@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>3d_line_detection</name>
+  <version>0.0.0</version>
+  <description>3d line detection from pointcloud using Hough Transform</description>
+  <maintainer email="xmba15@todo.todo">Ba Tran</maintainer>
+  <license>MIT</license>
+  <buildtool_depend>catkin</buildtool_depend>
+  <export />
+</package>

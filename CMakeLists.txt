@@ -7,6 +7,13 @@ set(LIBRARY_NAME ${PROJECT_NAME})
 
 find_package(PCL REQUIRED)
 
+find_package(catkin REQUIRED)
+
+catkin_package(
+  INCLUDE_DIRS ${PROJECT_SOURCE_DIR}/include
+  LIBRARIES ${PROJECT_NAME}
+)
+
 add_subdirectory(src)
 
 if(BUILD_EXAMPLES)
